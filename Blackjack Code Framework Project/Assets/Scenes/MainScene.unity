@@ -404,10 +404,6 @@ MonoBehaviour:
   tenCard: {fileID: 4614760618592522624, guid: 058c3b1a54c700545a5a371bad9e5b73, type: 3}
   handSlot1: {fileID: 0}
   handSlot2: {fileID: 0}
-  handSlot3: {fileID: 0}
-  handSlot4: {fileID: 0}
-  handSlot5: {fileID: 0}
-  handSlot6: {fileID: 0}
 --- !u!1 &182775412
 GameObject:
   m_ObjectHideFlags: 0
