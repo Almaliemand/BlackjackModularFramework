@@ -22,7 +22,7 @@ public class PlayerCardManager : MonoBehaviour
     public GameObject nineCard; 
     public GameObject tenCard; 
 
-
+   
  
      
     
@@ -73,7 +73,7 @@ public class PlayerCardManager : MonoBehaviour
         }
           if (drawnCard == 9)
         {
-            Instantiate (fiveCard); 
+            Instantiate (fiveCard);
             Instantiate (fourCard); 
         }
           if (drawnCard == 10)
