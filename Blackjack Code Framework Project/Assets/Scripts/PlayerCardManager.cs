@@ -153,15 +153,15 @@ public class PlayerCardManager : MonoBehaviour
         addRandomNumber(); 
         PlayerPointsInitial.enabled = false; 
         PlayerPointsTrue.enabled = true;
-    }
 
-    private void FixedUpdate() 
-    {
-        if (addResult > 21)
+          if (addResult > 21)
         {
-            
+            bustfailUI.SetActive (true); 
+            addButton.SetActive (false); 
         }
     }
+
+  
 
 
 
@@ -175,8 +175,8 @@ public class PlayerCardManager : MonoBehaviour
     void addRandomNumber ()
     {
         int addRandomNum = Random.Range(1, 11); 
-        addResult = drawnCard + addRandomNum;  
-        PlayerPointsTrue.text = addResult.ToString(); 
+        addResult = drawnCard += addRandomNum; 
+        PlayerPointsTrue.text = addResult.ToString();  
     }
 
 
