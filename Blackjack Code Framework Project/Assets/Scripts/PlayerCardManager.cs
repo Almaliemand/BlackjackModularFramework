@@ -159,6 +159,8 @@ public class PlayerCardManager : MonoBehaviour
             bustfailUI.SetActive (true); 
             addButton.SetActive (false); 
         }
+
+    
     }
 
   
@@ -175,6 +177,7 @@ public class PlayerCardManager : MonoBehaviour
     void addRandomNumber ()
     {
         int addRandomNum = Random.Range(1, 11); 
+        addResult = addResult + addRandomNum; 
         addResult = drawnCard += addRandomNum; 
         PlayerPointsTrue.text = addResult.ToString();  
     }
