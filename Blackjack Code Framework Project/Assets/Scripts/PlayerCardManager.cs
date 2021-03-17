@@ -4,13 +4,20 @@ using UnityEngine;
 using TMPro; 
 public class PlayerCardManager : MonoBehaviour
 {
-    public TextMeshProUGUI PlayerPoints; 
+    //The UI element showing the initial value of the hand dealt to the player.
+    public TextMeshProUGUI PlayerPointsInitial; 
+
+    // This UI element shows the score of the player each time they add a card. 
+    public TextMeshProUGUI PlayerPointsTrue; 
 
     // These are the two buttons that needs to be bound in the inspector. 
     public GameObject drawButton; 
     public GameObject addButton; 
 
-    // these gameobjects are used to later instantiate the cards. 
+    // this is the fail screen that appears when the player busts. 
+    public GameObject bustfailUI; 
+
+    // these gameobjects are used to  instantiate the cards. 
     public GameObject aceCard; 
     public GameObject twoCard;
     public GameObject threeCard; 
@@ -29,20 +36,23 @@ public class PlayerCardManager : MonoBehaviour
     // this is the integer that controls the first value in the player hand. 
     int drawnCard; 
 
-    // this is the integer that controls the value each time the player adds a card to their hand. 
-    int result; 
+    // this is the limit of the points, anything greater will lose you the game.
+    int pointLimit = 21; 
+
+    int addResult; 
 
     // This function sets the player hand's value to zero at the start of the game!
      void Start() 
     {
         drawnCard = 0; 
-        PlayerPoints.text = drawnCard.ToString(); 
+        PlayerPointsInitial.text = drawnCard.ToString(); 
+        PlayerPointsTrue.enabled = false; 
         
     } 
 
     public void onDrawBtn ()
     {
-        drawRandomNumber(21); 
+        drawRandomNumber();  
         drawButton.SetActive (false); 
         addButton.SetActive (true); 
 
@@ -138,11 +148,42 @@ public class PlayerCardManager : MonoBehaviour
             }
     }
 
-    void drawRandomNumber (int maxInt)
+    public void onAddBtn ()
     {
-        int randomNum = Random.Range(4, maxInt+1); 
-        drawnCard = drawnCard + randomNum; 
-        PlayerPoints.text = drawnCard.ToString(); 
+        addRandomNumber(); 
+        PlayerPointsInitial.enabled = false; 
+        PlayerPointsTrue.enabled = true;
     }
+
+    private void FixedUpdate() 
+    {
+        if (addResult > 21)
+        {
+            
+        }
+    }
+
+
+
+    void drawRandomNumber ()
+    {
+        int randomNum = Random.Range(4, 21); 
+        drawnCard = drawnCard + randomNum; 
+        PlayerPointsInitial.text = drawnCard.ToString(); 
+    }
+
+    void addRandomNumber ()
+    {
+        int addRandomNum = Random.Range(1, 11); 
+        addResult = drawnCard + addRandomNum;  
+        PlayerPointsTrue.text = addResult.ToString(); 
+    }
+
+
+
+ 
+
+
+ 
     
 }
