@@ -1,0 +1,1683 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4697154467223591360
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1259145303240349607}
+  - component: {fileID: 2028375368864227294}
+  - component: {fileID: 2028375368864227293}
+  m_Layer: 0
+  m_Name: CasinoChip20_White_00
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1259145303240349607
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4697154467223591360}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 576.9, y: 352.37, z: -309}
+  m_LocalScale: {x: 20, y: 20, z: 20}
+  m_Children:
+  - {fileID: 1892768863046840699}
+  - {fileID: 2582024341267666111}
+  - {fileID: 3185459094028216195}
+  - {fileID: 7177458369023221639}
+  - {fileID: 293170471861718079}
+  - {fileID: 5380498085775213001}
+  - {fileID: 3380600849385416741}
+  - {fileID: 8689183028155383107}
+  - {fileID: 7112889418193225522}
+  - {fileID: 7521898331042442299}
+  - {fileID: 7180721169982924534}
+  - {fileID: 5551795525259729551}
+  - {fileID: 1499400053113746210}
+  - {fileID: 4597955386742106552}
+  - {fileID: 1705944629340937618}
+  - {fileID: 813738144035049923}
+  - {fileID: 9096781586925597516}
+  - {fileID: 1700319414748023418}
+  - {fileID: 1711343388670190826}
+  - {fileID: 4291372893161201285}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &2028375368864227294
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4697154467223591360}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2028375368864227293
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4697154467223591360}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.039349366, y: 0.06507426, z: 1}
+  m_Center: {x: -0.0007415772, y: 0.028577471, z: 0}
+--- !u!1001 &396624857350577114
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1259145303240349607}
+    m_Modifications:
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0527
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9939262
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.11004837
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -12.636001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2612930645372953523, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Name
+      value: CasinoChip_Black (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358966153943308143, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1256f155435a60a478e083493edf77ef, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24828e358252f3d4fa612008bf2e77cc, type: 3}
+--- !u!4 &1700319414748023418 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 396624857350577114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &407099633213338954
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1259145303240349607}
+    m_Modifications:
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0558
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9658509
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.25909862
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 30.033
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2612930645372953523, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Name
+      value: CasinoChip_Black (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358966153943308143, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1256f155435a60a478e083493edf77ef, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24828e358252f3d4fa612008bf2e77cc, type: 3}
+--- !u!4 &1711343388670190826 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 407099633213338954}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &411266625046776882
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1259145303240349607}
+    m_Modifications:
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0434
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9836575
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.1800499
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -20.745
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2612930645372953523, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Name
+      value: CasinoChip_Black (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358966153943308143, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1256f155435a60a478e083493edf77ef, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24828e358252f3d4fa612008bf2e77cc, type: 3}
+--- !u!4 &1705944629340937618 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 411266625046776882}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &492958532416758402
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1259145303240349607}
+    m_Modifications:
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0372
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.985224
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.17127062
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 19.723001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2612930645372953523, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Name
+      value: CasinoChip_Black (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358966153943308143, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1256f155435a60a478e083493edf77ef, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24828e358252f3d4fa612008bf2e77cc, type: 3}
+--- !u!4 &1499400053113746210 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 492958532416758402}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &602866673894727899
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1259145303240349607}
+    m_Modifications:
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8443492
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5357934
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -64.795006
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2612930645372953523, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Name
+      value: CasinoChip_Black
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358966153943308143, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1256f155435a60a478e083493edf77ef, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24828e358252f3d4fa612008bf2e77cc, type: 3}
+--- !u!4 &1892768863046840699 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 602866673894727899}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1587566932457594271
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1259145303240349607}
+    m_Modifications:
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0124
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.95484596
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.29710135
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 34.567
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2612930645372953523, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Name
+      value: CasinoChip_Black (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358966153943308143, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1256f155435a60a478e083493edf77ef, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24828e358252f3d4fa612008bf2e77cc, type: 3}
+--- !u!4 &293170471861718079 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1587566932457594271}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1824905408072646755
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1259145303240349607}
+    m_Modifications:
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0465
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.999263
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.038385678
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 4.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2612930645372953523, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Name
+      value: CasinoChip_Black (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358966153943308143, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1256f155435a60a478e083493edf77ef, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24828e358252f3d4fa612008bf2e77cc, type: 3}
+--- !u!4 &813738144035049923 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1824905408072646755}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2997044000938266405
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1259145303240349607}
+    m_Modifications:
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0589
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9944421
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.105285175
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 12.087001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2612930645372953523, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Name
+      value: CasinoChip_Black (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358966153943308143, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1256f155435a60a478e083493edf77ef, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24828e358252f3d4fa612008bf2e77cc, type: 3}
+--- !u!4 &4291372893161201285 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 2997044000938266405}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3303002590926764056
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1259145303240349607}
+    m_Modifications:
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0403
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99888456
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.047218375
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 5.413
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2612930645372953523, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Name
+      value: CasinoChip_Black (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358966153943308143, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1256f155435a60a478e083493edf77ef, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24828e358252f3d4fa612008bf2e77cc, type: 3}
+--- !u!4 &4597955386742106552 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 3303002590926764056}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3588408197701092639
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1259145303240349607}
+    m_Modifications:
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0031
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99153405
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.12984729
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 14.922001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2612930645372953523, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Name
+      value: CasinoChip_Black (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358966153943308143, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1256f155435a60a478e083493edf77ef, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24828e358252f3d4fa612008bf2e77cc, type: 3}
+--- !u!4 &2582024341267666111 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 3588408197701092639}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4392111092335737221
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1259145303240349607}
+    m_Modifications:
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0186
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98815656
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.15344912
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -17.654001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2612930645372953523, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Name
+      value: CasinoChip_Black (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358966153943308143, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1256f155435a60a478e083493edf77ef, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24828e358252f3d4fa612008bf2e77cc, type: 3}
+--- !u!4 &3380600849385416741 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 4392111092335737221}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4480133163580913187
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1259145303240349607}
+    m_Modifications:
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0062
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9894274
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.14502934
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -16.678001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2612930645372953523, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Name
+      value: CasinoChip_Black (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358966153943308143, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1256f155435a60a478e083493edf77ef, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24828e358252f3d4fa612008bf2e77cc, type: 3}
+--- !u!4 &3185459094028216195 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 4480133163580913187}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6391445473327321193
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1259145303240349607}
+    m_Modifications:
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0155
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2612930645372953523, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Name
+      value: CasinoChip_Black (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358966153943308143, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1256f155435a60a478e083493edf77ef, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24828e358252f3d4fa612008bf2e77cc, type: 3}
+--- !u!4 &5380498085775213001 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 6391445473327321193}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6850634562084309807
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1259145303240349607}
+    m_Modifications:
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0341
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2612930645372953523, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Name
+      value: CasinoChip_Black (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358966153943308143, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1256f155435a60a478e083493edf77ef, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24828e358252f3d4fa612008bf2e77cc, type: 3}
+--- !u!4 &5551795525259729551 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 6850634562084309807}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7678508336705498339
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1259145303240349607}
+    m_Modifications:
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0217
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98577327
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.16808054
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 19.352001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2612930645372953523, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Name
+      value: CasinoChip_Black (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358966153943308143, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1256f155435a60a478e083493edf77ef, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24828e358252f3d4fa612008bf2e77cc, type: 3}
+--- !u!4 &8689183028155383107 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 7678508336705498339}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7793450443370832620
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1259145303240349607}
+    m_Modifications:
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0496
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9923684
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.123308346
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 14.166
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2612930645372953523, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Name
+      value: CasinoChip_Black (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358966153943308143, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1256f155435a60a478e083493edf77ef, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24828e358252f3d4fa612008bf2e77cc, type: 3}
+--- !u!4 &9096781586925597516 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 7793450443370832620}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8119893879705294482
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1259145303240349607}
+    m_Modifications:
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0248
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99963015
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.027196433
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -3.117
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2612930645372953523, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Name
+      value: CasinoChip_Black (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358966153943308143, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1256f155435a60a478e083493edf77ef, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24828e358252f3d4fa612008bf2e77cc, type: 3}
+--- !u!4 &7112889418193225522 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 8119893879705294482}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8179331942294064679
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1259145303240349607}
+    m_Modifications:
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0093
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99013156
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.14014153
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 16.112001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2612930645372953523, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Name
+      value: CasinoChip_Black (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358966153943308143, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1256f155435a60a478e083493edf77ef, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24828e358252f3d4fa612008bf2e77cc, type: 3}
+--- !u!4 &7177458369023221639 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 8179331942294064679}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8196178110434817878
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1259145303240349607}
+    m_Modifications:
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.031
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.90970606
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.41525275
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 49.070004
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2612930645372953523, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Name
+      value: CasinoChip_Black (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358966153943308143, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1256f155435a60a478e083493edf77ef, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24828e358252f3d4fa612008bf2e77cc, type: 3}
+--- !u!4 &7180721169982924534 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 8196178110434817878}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8825509248820215195
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1259145303240349607}
+    m_Modifications:
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0279
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9890811
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.14737225
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 16.949001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2612930645372953523, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Name
+      value: CasinoChip_Black (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358966153943308143, guid: 24828e358252f3d4fa612008bf2e77cc,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1256f155435a60a478e083493edf77ef, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24828e358252f3d4fa612008bf2e77cc, type: 3}
+--- !u!4 &7521898331042442299 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1304257507995750816, guid: 24828e358252f3d4fa612008bf2e77cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 8825509248820215195}
+  m_PrefabAsset: {fileID: 0}
