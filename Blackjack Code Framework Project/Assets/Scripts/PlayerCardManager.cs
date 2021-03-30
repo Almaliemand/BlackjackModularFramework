@@ -153,11 +153,18 @@ public class PlayerCardManager : MonoBehaviour
         addRandomNumber(); 
         PlayerPointsInitial.enabled = false; 
         PlayerPointsTrue.enabled = true;
-
+        // Cause player to fail if their score is greater than 21. 
           if (addResult > 21)
         {
             bustfailUI.SetActive (true); 
             addButton.SetActive (false); 
+        }
+
+        // Listed below is the list of instantiations for the add result. 
+
+        if (addResult == 1)
+        {
+            
         }
 
     
@@ -177,7 +184,9 @@ public class PlayerCardManager : MonoBehaviour
     void addRandomNumber ()
     {
         int addRandomNum = Random.Range(1, 11); 
+        // The first add result is the result of itself added to a random number between 1 and 11. 
         addResult = addResult + addRandomNum; 
+        // This second add result is the result of the first add result with the drawn card. 
         addResult = drawnCard += addRandomNum; 
         PlayerPointsTrue.text = addResult.ToString();  
     }
