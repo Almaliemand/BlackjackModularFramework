@@ -6,9 +6,13 @@ using TMPro;
 public class CardDrawingRetry : MonoBehaviour
 {
 
-    int playerScore = 0; 
+    public int playerScore;  
+    public int randomNum; 
     public TextMeshProUGUI playerScoreText; 
     public GameObject bustFailUI; 
+    public GameObject aceChoiceUI; 
+    public GameObject drawButton;
+    public GameObject standButton; 
 
     // Below is a list of card game objects that the script will instantiate later on. 
 
@@ -24,7 +28,7 @@ public class CardDrawingRetry : MonoBehaviour
     public GameObject tenCard;
     public void onBtnPress()
     {
-        int randomNum = Random.Range (1,10); 
+        randomNum = Random.Range (1,10); 
         playerScore = playerScore + randomNum; 
         playerScoreText.text = playerScore.ToString(); 
         if (playerScore > 21)
@@ -36,6 +40,9 @@ public class CardDrawingRetry : MonoBehaviour
         if (randomNum == 1)
         {
             Instantiate (oneCard); 
+            aceChoiceUI.SetActive (true);  
+            drawButton.SetActive (false); 
+            standButton.SetActive (false);   
         }
 
         if (randomNum == 2)
@@ -84,4 +91,22 @@ public class CardDrawingRetry : MonoBehaviour
         }
         
     }
+
+    public void onAceOne ()
+    {
+        aceChoiceUI.SetActive (false); 
+        drawButton.SetActive (true); 
+        standButton.SetActive (true); 
+    }
+
+    public void onAceEleven ()
+    {
+        aceChoiceUI.SetActive (false); 
+        drawButton.SetActive (true); 
+        standButton.SetActive (true);
+    }
+
+
+
+
 }
