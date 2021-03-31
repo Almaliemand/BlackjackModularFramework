@@ -404,6 +404,11 @@ MonoBehaviour:
   nineCard: {fileID: 2899835842823587675, guid: 7a129e24e0b170844bf168845fa2045d,
     type: 3}
   tenCard: {fileID: 5281947355638178761, guid: e90f5c0a4dae0c0498f40b8d045139aa, type: 3}
+  jackCard: {fileID: 373084615576735645, guid: 946f201d231c9f747a07d7edcb0025ec, type: 3}
+  queenCard: {fileID: 6343262455444136651, guid: 71a59e8e41aed14449b0856cafdc7c90,
+    type: 3}
+  kingCard: {fileID: 2846733343849649392, guid: 5788274699ed099478d13f77cfc7d344,
+    type: 3}
 --- !u!1 &182775412
 GameObject:
   m_ObjectHideFlags: 0
@@ -815,6 +820,9 @@ MonoBehaviour:
   nineCard: {fileID: 2899835842823587675, guid: 7a129e24e0b170844bf168845fa2045d,
     type: 3}
   tenCard: {fileID: 5281947355638178761, guid: e90f5c0a4dae0c0498f40b8d045139aa, type: 3}
+  jackCard: {fileID: 0}
+  queenCard: {fileID: 0}
+  kingCard: {fileID: 0}
 --- !u!1 &652200650
 GameObject:
   m_ObjectHideFlags: 0
@@ -1255,6 +1263,9 @@ MonoBehaviour:
   nineCard: {fileID: 2899835842823587675, guid: 7a129e24e0b170844bf168845fa2045d,
     type: 3}
   tenCard: {fileID: 5281947355638178761, guid: e90f5c0a4dae0c0498f40b8d045139aa, type: 3}
+  jackCard: {fileID: 0}
+  queenCard: {fileID: 0}
+  kingCard: {fileID: 0}
 --- !u!1 &887625332
 GameObject:
   m_ObjectHideFlags: 0
@@ -2258,6 +2269,9 @@ MonoBehaviour:
   nineCard: {fileID: 2899835842823587675, guid: 7a129e24e0b170844bf168845fa2045d,
     type: 3}
   tenCard: {fileID: 5281947355638178761, guid: e90f5c0a4dae0c0498f40b8d045139aa, type: 3}
+  jackCard: {fileID: 0}
+  queenCard: {fileID: 0}
+  kingCard: {fileID: 0}
 --- !u!1 &1588255066
 GameObject:
   m_ObjectHideFlags: 0

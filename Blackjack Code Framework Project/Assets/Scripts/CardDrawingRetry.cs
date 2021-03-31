@@ -26,9 +26,12 @@ public class CardDrawingRetry : MonoBehaviour
     public GameObject eightCard;
     public GameObject nineCard;
     public GameObject tenCard;
+    public GameObject jackCard;
+    public GameObject queenCard; 
+    public GameObject kingCard; 
     public void onBtnPress()
     {
-        randomNum = Random.Range (1,10); 
+        randomNum = Random.Range (1,13); 
         playerScore = playerScore + randomNum; 
         playerScoreText.text = playerScore.ToString(); 
         if (playerScore > 21)
@@ -39,10 +42,7 @@ public class CardDrawingRetry : MonoBehaviour
         // Below is the list of cards that the script must instantiate based on the random number generated. 
         if (randomNum == 1)
         {
-            Instantiate (oneCard); 
-            aceChoiceUI.SetActive (true);  
-            drawButton.SetActive (false); 
-            standButton.SetActive (false);   
+            Instantiate (oneCard);    
         }
 
         if (randomNum == 2)
@@ -89,22 +89,24 @@ public class CardDrawingRetry : MonoBehaviour
         {
             Instantiate (tenCard); 
         }
+
+        if (randomNum == 11)
+        {
+            Instantiate (jackCard); 
+        }
+
+        if (randomNum == 12)
+        {
+            Instantiate (queenCard); 
+        }
+
+        if (randomNum == 13)
+        {
+            Instantiate (kingCard); 
+        }
         
     }
 
-    public void onAceOne ()
-    {
-        aceChoiceUI.SetActive (false); 
-        drawButton.SetActive (true); 
-        standButton.SetActive (true); 
-    }
-
-    public void onAceEleven ()
-    {
-        aceChoiceUI.SetActive (false); 
-        drawButton.SetActive (true); 
-        standButton.SetActive (true);
-    }
 
 
 
