@@ -29,9 +29,20 @@ public class CardDrawingRetry : MonoBehaviour
     public GameObject jackCard;
     public GameObject queenCard; 
     public GameObject kingCard; 
+    public GameObject aceCard; 
+
+    List<GameObject> cardPrefabList = new List<GameObject>();
+
+    void Start()
+    {
+        cardPrefabList.Add(tenCard); 
+        cardPrefabList.Add(jackCard);
+        cardPrefabList.Add(queenCard);
+        cardPrefabList.Add(kingCard);
+    } 
     public void onBtnPress()
     {
-        randomNum = Random.Range (1,13); 
+        randomNum = Random.Range (1,11); 
         playerScore = playerScore + randomNum; 
         playerScoreText.text = playerScore.ToString(); 
         if (playerScore > 21)
@@ -87,23 +98,17 @@ public class CardDrawingRetry : MonoBehaviour
 
         if (randomNum == 10)
         {
-            Instantiate (tenCard); 
+            Debug.Log ("You got a ten!"); 
+            int prefabIndex = UnityEngine.Random.Range(0,3); 
+            Instantiate(cardPrefabList[prefabIndex]); 
         }
 
         if (randomNum == 11)
         {
-            Instantiate (jackCard); 
+            Instantiate(aceCard); 
         }
 
-        if (randomNum == 12)
-        {
-            Instantiate (queenCard); 
-        }
 
-        if (randomNum == 13)
-        {
-            Instantiate (kingCard); 
-        }
         
     }
 
