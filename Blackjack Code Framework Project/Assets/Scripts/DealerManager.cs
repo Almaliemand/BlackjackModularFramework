@@ -37,6 +37,7 @@ public class DealerManager : MonoBehaviour
             addRandomNum = Random.Range(1,11); 
             dealerScore = dealerScore + addRandomNum;
             readyToRevealUI.SetActive (true);
+            
         }
 
         if (dealerScore >= 12 && dealerScore <= 21)
