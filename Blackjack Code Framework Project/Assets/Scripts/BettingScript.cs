@@ -6,17 +6,19 @@ using TMPro;
 public class BettingScript : MonoBehaviour
 {
     public int playerChips; 
-    public int playerChipsReserve; 
+    public int chipsLeft; 
+    public int dealerChips;  
     public GameObject betUI; 
     public TextMeshProUGUI chipPotText; 
     public TextMeshProUGUI chipReserveText; 
+   
      
      void Start() 
      {
         playerChips = 0;
-        playerChipsReserve = 1000; 
+        chipsLeft = 1000; 
         chipPotText.text = playerChips.ToString(); 
-        chipReserveText.text = playerChipsReserve.ToString();
+        chipReserveText.text = chipsLeft.ToString();
      }
 
     public void onBetOpenMenu ()
@@ -26,78 +28,85 @@ public class BettingScript : MonoBehaviour
 
     public void onBetOneChip ()
     {
-        if (playerChipsReserve >= 1)
+        if (chipsLeft >= 1)
         {
             playerChips += 1; 
-            playerChipsReserve -= 1; 
+            chipsLeft -= 1; 
             chipPotText.text = playerChips.ToString();
-            chipReserveText.text = playerChipsReserve.ToString(); 
+            chipReserveText.text = chipsLeft.ToString(); 
+             
         }  
     }
 
     public void onBetFiveChips ()
     {
-        if (playerChipsReserve >= 5)
+        if (chipsLeft >= 5)
         {
             playerChips += 5; 
-            playerChipsReserve -= 5; 
+            chipsLeft -= 5; 
             chipPotText.text = playerChips.ToString();
-            chipReserveText.text = playerChipsReserve.ToString();
+            chipReserveText.text = chipsLeft.ToString();
+            
         }
     }
 
     public void onBetTenChips ()
     {
-        if (playerChipsReserve >= 10)
+        if (chipsLeft >= 10)
         {
             playerChips += 10; 
-            playerChipsReserve -= 10; 
+            chipsLeft -= 10; 
             chipPotText.text = playerChips.ToString();
-            chipReserveText.text = playerChipsReserve.ToString();
+            chipReserveText.text = chipsLeft.ToString();
+            
         }
     }
 
     public void onBetTwentyChips ()
     {
-        if (playerChipsReserve >= 20)
+        if (chipsLeft >= 20)
         {
             playerChips += 20; 
-            playerChipsReserve -= 20; 
+            chipsLeft -= 20; 
             chipPotText.text = playerChips.ToString();
-            chipReserveText.text = playerChipsReserve.ToString();
+            chipReserveText.text = chipsLeft.ToString();
+            
         }
     }
 
     public void onBetFiftyChips ()
     {
-        if (playerChipsReserve >= 50)
+        if (chipsLeft >= 50)
         {
             playerChips += 50; 
-            playerChipsReserve -= 50; 
+            chipsLeft -= 50; 
             chipPotText.text = playerChips.ToString();
-            chipReserveText.text = playerChipsReserve.ToString();
+            chipReserveText.text = chipsLeft.ToString();
+            
         }
     }
 
     public void onBetHundredChips ()
     {
-        if (playerChipsReserve >= 100)
+        if (chipsLeft >= 100)
         {
             playerChips += 100;
-            playerChipsReserve -= 100;  
+            chipsLeft -= 100;  
             chipPotText.text = playerChips.ToString();
-            chipReserveText.text = playerChipsReserve.ToString();
+            chipReserveText.text = chipsLeft.ToString();
+            
         }
     }
 
     public void onBetTwoHundredChips ()
     {
-        if (playerChipsReserve >= 200)
+        if (chipsLeft >= 200)
         {
             playerChips += 200; 
-            playerChipsReserve -= 200; 
+            chipsLeft -= 200; 
             chipPotText.text = playerChips.ToString();
-            chipReserveText.text = playerChipsReserve.ToString();
+            chipReserveText.text = chipsLeft.ToString();
+            
         }
     }
 
@@ -105,4 +114,12 @@ public class BettingScript : MonoBehaviour
     {
         betUI.SetActive (false); 
     }
+
+
+
+
+
+    
+
+
 }

@@ -12,6 +12,8 @@ public class DealerManager : MonoBehaviour
     public GameObject playerStandButton; 
     public GameObject readyToRevealUI; 
     public TextMeshProUGUI dealerScoreText; 
+    
+    
 
     // Listed below is the series of UI's for the different victory triggers
 
@@ -23,7 +25,8 @@ public class DealerManager : MonoBehaviour
     void Start() 
     {
         dealerScore = 0; 
-        
+        GameObject betManager = GameObject.Find("BetScriptHolder");
+        BettingScript bettingScript = betManager.GetComponent<BettingScript>(); 
     }
 
     public void onDealerTurn ()
@@ -37,7 +40,7 @@ public class DealerManager : MonoBehaviour
             addRandomNum = Random.Range(1,11); 
             dealerScore = dealerScore + addRandomNum;
             readyToRevealUI.SetActive (true);
-            
+
         }
 
         if (dealerScore >= 12 && dealerScore <= 21)
@@ -64,19 +67,35 @@ public class DealerManager : MonoBehaviour
         if (dealerScore < CardDrawingRetry.playerScore)
         {
             dealerScoreText.text = dealerScore.ToString(); 
-            playerGreaterThanDealerUI.SetActive(true); 
+            playerGreaterThanDealerUI.SetActive(true);
+            GameObject betManager = GameObject.Find("BetScriptHolder");
+            BettingScript bettingScript = betManager.GetComponent<BettingScript>();
+            bettingScript.playerChips += 10; 
+            bettingScript.chipPotText.text = bettingScript.playerChips.ToString();
+             
+            
         }
 
         if (dealerScore > CardDrawingRetry.playerScore)
         {
             dealerScoreText.text = dealerScore.ToString();
             dealerGreaterThanPlayerUI.SetActive(true); 
+            GameObject betManager = GameObject.Find("BetScriptHolder");
+            BettingScript bettingScript = betManager.GetComponent<BettingScript>();
+            bettingScript.playerChips += 50;
+            bettingScript.chipPotText.text = bettingScript.playerChips.ToString();
+             
         }
 
         if (dealerScore == CardDrawingRetry.playerScore)
         {
             dealerScoreText.text = dealerScore.ToString();
             drawUI.SetActive(true);
+            GameObject betManager = GameObject.Find("BetScriptHolder");
+            BettingScript bettingScript = betManager.GetComponent<BettingScript>();
+            bettingScript.playerChips += 0;
+            bettingScript.chipPotText.text = bettingScript.playerChips.ToString();
+            
         }
     }
 
