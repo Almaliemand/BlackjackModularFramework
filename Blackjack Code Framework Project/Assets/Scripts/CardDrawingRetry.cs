@@ -6,11 +6,10 @@ using TMPro;
 public class CardDrawingRetry : MonoBehaviour
 {
 
-    public int playerScore;  
+    public static int playerScore;  
     public int randomNum; 
     public TextMeshProUGUI playerScoreText; 
-    public GameObject bustFailUI; 
-    public GameObject aceChoiceUI; 
+    public GameObject bustFailUI;  
     public GameObject drawButton;
     public GameObject standButton; 
 
@@ -48,6 +47,7 @@ public class CardDrawingRetry : MonoBehaviour
         if (playerScore > 21)
         {
             bustFailUI.SetActive (true); 
+            
         }
 
         // Below is the list of cards that the script must instantiate based on the random number generated. 
