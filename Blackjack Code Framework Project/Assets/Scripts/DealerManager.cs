@@ -35,7 +35,7 @@ public class DealerManager : MonoBehaviour
         playerStandButton.SetActive (false); 
         randomDealerNum = Random.Range(1,21); 
         dealerScore = dealerScore + randomDealerNum; 
-         if (dealerScore <= 11)
+         if (dealerScore < 11)
         {
             addRandomNum = Random.Range(1,11); 
             dealerScore = dealerScore + addRandomNum;
@@ -43,7 +43,7 @@ public class DealerManager : MonoBehaviour
 
         }
 
-        if (dealerScore >= 12 && dealerScore <= 21)
+        if (dealerScore > 12 && dealerScore < 21)
         {
             addRandomNum = Random.Range(1,11);
             dealerScore = dealerScore + addRandomNum;
